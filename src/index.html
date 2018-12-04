@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+  <h1>Hello World!</h1>
+  <p>HOT!!!!!!!</p>
+  <!--
+    // error
+    <img src="./images/webpack.svg" alt="">
+   -->
+  <img src='<%=require("./images/react.png")%>' alt="react">
+  <img src='<%=require("./images/webpack.svg")%>' alt="webpack" style="width:100px; height:100px;">
+  <img src='<%=require("./images/innerFolder/html.png")%>' alt="react">
+</body>
+</html>
